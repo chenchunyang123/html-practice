@@ -1,5 +1,7 @@
 该项目是以前练习去切的html静态页面，点击预览：
 
+> 因为所有页面全部托管在coding上，所以加载图片会有些缓慢，可以直接下载下来，本地打开每个文件夹下的index.html预览
+
 - pc端
   - [博雅互动](http://chenchunyang.site/html-practice/博雅互动练习/)
   - [网易云音乐](http://chenchunyang.site/html-practice/网易云音乐练习/)
