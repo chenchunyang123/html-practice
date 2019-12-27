@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		h1 {
+			font-size: 26px;
+			float: left;
+		}
+		body {
+			background-color: #cc6;
+		}
+		button {
+			margin-top: 5px;
+			width: 100px;
+			height: 30px;
+			border-radius: 20px;
+			background-color: lightblue;
+			border: 2px solid black;
+			color: black;
+			font-weight: bold;
+		}
+		button:hover {
+			background-color: lightgreen;
+			color: #fff;
+		}
+		#box {
+			width: 100px;
+			height: 100px;
+			background-color: orange;
+			border: 2px solid black;
+			margin-left: 30px;
+			margin-top: 30px;
+			transition: all 1s;
+		}
+		#control {
+			width: 500px;
+			height: 400px;
+			position: fixed;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			background-color: #993;
+			padding: 30px 30px 0px;
+			box-sizing: border-box;
+			border: 2px solid black;
+			display: none;
+		}
+		#control dl {
+			width: 400px;
+			height: 70px;
+			font-weight: bold;
+			text-align: center;
+			padding-top: 30px;
+		}
+		#control dl dt {
+			float: left;
+		}
+		#control dl dd {
+			float: left;
+			width: 50px;
+			height: 40px;
+			border: 2px solid black;
+			margin-right: 40px;		
+			line-height: 40px;
+			position: relative;
+			top: -10px;
+			left: 40px;
+			box-shadow: 1px 1px 5px black;
+		}
+		#control dl:first-child dd:first-of-type {
+			background-color: #FF9999;
+		}
+		#control dl:first-child dd:first-of-type:hover {
+			background-color: red;
+			color: white;
+		}
+		#control dl:first-child dd:nth-of-type(2) {
+			background-color: lightyellow;
+		}
+		#control dl:first-child dd:nth-of-type(2):hover {
+			background-color: orange;
+			color: white;
+		}
+		#control dl:first-child dd:last-of-type {
+			background-color: lightblue;
+		}
+		#control dl:first-child dd:last-of-type:hover {
+			background-color: blue;
+			color: white;
+		}
+		#control dl dd:hover {
+			background-color: #fff;
+			color: black;
+		}
+		input {
+			width: 100px;
+			height: 30px;
+			border-radius: 10px;
+			box-shadow: 1px 1px 10px black;
+			margin-right: 0px;
+			margin-left: 80px;
+			background-color: #cc6;
+			border: 2px solid black;
+			font-weight: bold;
+		}
+		input:hover {
+			background-color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<!-- 盒子 -->
+	<h1>请为下面的DIV设置样式：</h1>
+	<button id="set">点击设置</button>
+	<div id="box"></div>
+	<!-- 控制面板 -->
+	<div id="control">
+		<dl>
+			<dt>请设置背景色：</dt>
+			<dd id="red">红</dd>
+			<dd id="yellow">黄</dd>
+			<dd id="blue">蓝</dd>
+		</dl>
+		<dl>
+			<dt>请设置宽(px)：</dt>
+			<dd id="w1">200</dd>
+			<dd id="w2">300</dd>
+			<dd id="w3">400</dd>
+		</dl>
+		<dl>
+			<dt>请设置高(px)：</dt>
+			<dd id="h1">200</dd>
+			<dd id="h2">300</dd>
+			<dd id="h3">400</dd>
+		</dl>
+		<input type="button" value="恢复" id="reset">
+		<input type="button" value="确认" id="yes">
+	</div>
+	<script type="text/javascript">
+		//获取小box
+		var oBox = document.getElementById('box');
+		//获取按钮
+		var oSet = document.getElementById('set');
+		//获取控制面板
+		var oControl = document.getElementById('control');
+		//获取背景色按钮
+		var oRed = document.getElementById('red');
+		var oYellow = document.getElementById('yellow');
+		var oBlue = document.getElementById('blue');
+		//获取宽
+		var oW1 = document.getElementById('w1');
+		var oW2 = document.getElementById('w2');
+		var oW3 = document.getElementById('w3');
+		//获取高
+		var oH1 = document.getElementById('h1');
+		var oH2 = document.getElementById('h2');
+		var oH3 = document.getElementById('h3');
+		//获取恢复确认
+		var oInput1 = document.getElementById('reset');
+		var oInput2 = document.getElementById('yes');
+		//建立动作
+		oRed.onclick = function () {
+			oBox.style.backgroundColor = 'red';
+		}
+		oYellow.onclick = function () {
+			oBox.style.backgroundColor = 'yellow';
+		}
+		oBlue.onclick = function () {
+			oBox.style.backgroundColor = 'blue';
+		}
+		oW1.onclick = function () {
+			oBox.style.width = '200px';
+		}
+		oW2.onclick = function () {
+			oBox.style.width = '300px';
+		}
+		oW3.onclick = function () {
+			oBox.style.width = '400px';
+		}
+		oH1.onclick = function () {
+			oBox.style.height = '200px';
+		}
+		oH2.onclick = function () {
+			oBox.style.height = '300px';
+		}
+		oH3.onclick = function () {
+			oBox.style.height = '400px';
+		}
+		oInput1.onclick = function () {
+			oBox.style.width = '100px';
+			oBox.style.height = '100px';
+			oBox.style.backgroundColor = 'orange';
+		}
+		oInput2.onclick = function () {
+			oControl.style.display = 'none';
+		}
+		oSet.onclick = function () {
+			oControl.style.display = 'block';
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,682 @@
+body{
+	background-color: #f5f5f5;
+}
+.sanjiao{
+	position: absolute;
+	width: 12px;
+	height: 7px;
+	background: url(../images/sanjiao.gif);
+	left: 436px;
+	top: 63px;
+}
+.navlist{
+	width: 100%;
+	height: 33px;
+	background-color: #c20c0c;
+	border-top: 1px solid #bf515d;
+	border-bottom: 1px solid #bf515d;
+}
+.navlist .inner{
+	width: 920px;
+	padding-left: 180px;
+	height: 33px;
+	margin: 0 auto;
+}
+.navlist .inner ul li{
+	float: left;
+	height: 33px;
+}
+.navlist .inner ul li a{
+	display: block;
+	padding: 0 30px;
+	line-height: 33px;
+	color: #faecec;
+}
+.navlist .inner ul li a.cur{
+	background: url(../images/bg.gif) no-repeat center center;
+}
+.navlist .inner ul li a.two:hover{
+	background: url(../images/bg.gif) no-repeat center center;
+}
+.navlist .inner ul li a.four:hover{
+	background: url(../images/bg1.gif) no-repeat center center;	
+}
+.banner{
+	width: 100%;
+	height:336px;
+	background-color: #f2f3f7;
+}
+.banner .inner{
+	height: 336px;
+	width: 984px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner .inner .radio{
+	float: left;
+	width: 730px;
+	height: 336px;
+	background: url(../images/banner.gif) no-repeat;
+}
+.banner .inner .download{
+	width: 233px;
+	height: 124px;
+	background: url(../images/download.png) no-repeat;
+	float: right;
+	padding-top: 212px;
+	padding-left: 19px;
+}	
+.banner .inner .download a{
+	display: block;
+	width: 215px;
+	height: 56px;
+}
+.banner .inner .download a:hover{
+	background: url(../images/download.png) no-repeat 0 -340px;
+}
+.banner .inner .download p{
+	color: #7e7e7e;
+	text-indent: -3px;
+	margin-top: 12px;
+}
+.banner .inner .lrBtn a.lBtn,.banner .inner .lrBtn a.rBtn{
+	position: absolute;
+	width: 38px;
+	height: 63px;
+	top: 50%;
+	margin-top:-31px;
+	font-size: 38px;
+	font-family: "sans-serif";
+	line-height: 60px;
+	color: white;
+	text-indent: 5px;
+}
+.banner .inner .lrBtn a.lBtn{
+	left: -60px;
+}
+.banner .inner .lrBtn a.rBtn{
+	right: -66px;
+}
+.banner .inner .lrBtn a:hover{
+	background-color: #c2c2c6;
+}
+.banner .inner .circle{
+	position: absolute;
+	height: 8px;
+	width: 176	px;
+	left: 279px;
+	top: 316px;
+}
+.banner .inner .circle ul li{
+	float: left;
+}
+.banner .inner .circle ul li a{
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #ada6a6;
+	margin-right: 16px;
+}
+.banner .inner .circle ul li a.cur{
+	background-color: #b80b0b;
+}
+.banner .inner .circle ul li a:hover{
+	background-color: #b80b0b;
+}
+.content{
+	margin: 0 auto;
+	width: 982px;
+	border-left: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+	overflow: hidden;
+}
+.content .lcon{
+	padding: 15px 21px 0px 21px;
+	width: 690px;
+	float: left;
+	border-right: 1.5px solid #e7e7e7;
+	background-color: white;
+}
+.content .lcon .hotlist{
+	width: 690px;
+	height: 603px;
+	position: relative;
+}
+.content .lcon .hotlist .title{
+	width: 680px;
+	height: 38px;
+	border-bottom: 2px solid #c10d0c;
+}
+.content .lcon .hotlist .title h2{
+	float: left;
+}
+.content .lcon .hotlist .title h2 a{
+	display: block;
+	padding-left: 35px;
+	font-size: 20px;
+	width: 86px;
+	height: 37px;
+	line-height: 37px;	
+	background: url(../images/hotcircle.gif) no-repeat 10px 11px;
+	color: black;
+}
+.content .lcon .hotlist .title .nav p{
+	float: left;
+	color: #dadada;
+	height: 37px;
+	line-height: 40px;
+}
+.content .lcon .hotlist .title .nav p a{
+	padding: 0px 11px;
+	color: #8c8c8c;
+}
+.content .lcon .hotlist .title .nav p a:hover{
+	text-decoration: underline;
+}
+.content .lcon .hotlist .title a.more{
+	float: right;
+	color: #8c8c8c;
+	padding-right: 26px;
+	background: url(../images/jiantou.gif) no-repeat 30px 19px;
+	padding-top: 14px;
+}
+.content .lcon .hotlist .title a.more:hover{
+	text-decoration: underline;
+}
+.content .lcon .hotlist .hotCD{
+	width: 690px;
+	height: 448px;
+	padding-top: 20px;
+}
+.content .lcon .hotlist .hotCD ul li{
+	float: left;
+	height: 207px;
+	width: 141px;
+	margin-right: 38px;
+}
+.content .lcon .hotlist .hotCD ul li a.CD{
+	display: block;
+	width: 140px;
+	height: 140px;
+	background: url(../images/CD1.gif);
+	margin-bottom: 8px;
+}
+.content .lcon .hotlist .hotCD ul li p{
+	font-size: 14px;
+	line-height: 20px;
+}
+.content .lcon .hotlist .hotCD ul li p a{
+	color: black;
+}
+.content .lcon .hotlist .hotCD ul li p a:hover{
+	text-decoration: underline;
+}
+.content .lcon .hotlist .hotCD a.guanggao{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 689px;
+	height: 75px;
+	background: url(../images/guanggao.jpg);
+}
+.content .lcon .newlist{
+	padding-top: 32px;
+	width: 690px;
+	height: 282px;
+}
+.content .lcon .newlist .title{
+	width: 680px;
+	height: 38px;
+	border-bottom: 2px solid #c10d0c;
+	margin-bottom: 20px;
+}
+.content .lcon .newlist .title h2{
+	float: left;
+}
+.content .lcon .newlist .title h2 a{
+	display: block;
+	padding-left: 35px;
+	font-size: 20px;
+	width: 86px;
+	height: 37px;
+	line-height: 37px;	
+	background: url(../images/hotcircle.gif) no-repeat 10px 11px;
+	color: black;
+}
+.content .lcon .newlist .title a.more{
+	float: right;
+	color: #8c8c8c;
+	padding-right: 26px;
+	background: url(../images/jiantou.gif) no-repeat 30px 19px;
+	padding-top: 14px;
+}
+.content .lcon .newlist .title a.more:hover{
+	text-decoration: underline;
+}
+.content .lcon .newlist .newCD{
+	padding-top: 30px;
+	padding-left: 26px;
+	width: 652px;
+	height: 159px;
+	border: 1px solid #dedede;
+	background-color: #f5f5f5;
+	position: relative;
+}
+.content .lcon .newlist .newCD ul li{
+	margin-right: 11px;
+	float: left;
+}
+.content .lcon .newlist .newCD ul li a.new1{
+	display: block;
+	width: 117px;
+	height: 102px;
+	background: url(../images/new1.gif);
+	margin-bottom: 6px;
+}
+.content .lcon .newlist .newCD ul li p.p1 a{
+	line-height: 18px;
+	font-size: 12px;
+	color: black;
+}
+.content .lcon .newlist .newCD ul li p.p2 a{
+	color: grey;
+}
+.content .lcon .newlist .newCD ul li p:hover{
+	text-decoration: underline;
+}
+.content .lcon .newlist .newCD .btn a{
+	position: absolute;
+	font-size: 18px;
+	font-weight: bold;
+	height: 18px;
+	top: 50%;
+	margin-top: -22px;
+	color: lightgrey;
+}
+.content .lcon .newlist .newCD .btn a.lBtn{
+	left: 6px;
+}
+.content .lcon .newlist .newCD .btn a.rBtn{
+	right: 6px;
+}
+.content .lcon .newlist .newCD .btn a:hover{
+	color: grey;
+}
+.content .lcon .toplist{
+	width: 690px;
+	height: 568px;
+}
+
+
+.content .lcon .toplist .title{
+	width: 680px;
+	height: 38px;
+	border-bottom: 2px solid #c10d0c;
+	margin-bottom: 20px;
+}
+.content .lcon .toplist .title h2{
+	float: left;
+}
+.content .lcon .toplist .title h2 a{
+	display: block;
+	padding-left: 35px;
+	font-size: 20px;
+	width: 86px;
+	height: 37px;
+	line-height: 37px;	
+	background: url(../images/hotcircle.gif) no-repeat 10px 11px;
+	color: black;
+}
+.content .lcon .toplist .title a.more{
+	float: right;
+	color: #8c8c8c;
+	padding-right: 26px;
+	background: url(../images/jiantou.gif) no-repeat 30px 19px;
+	padding-top: 14px;
+}
+.content .lcon .toplist .title a.more:hover{
+	text-decoration: underline;
+}
+.content .lcon .toplist .toplistbox{
+	width: 688px;
+	height: 472px;
+	overflow: hidden;
+}
+.content .lcon .toplist .toplistbox dl{
+	width: 225px;
+	height: 468px;
+	border: 1px solid #e1e1e1;
+	border-right: none;
+	float: left;
+	background-color: #f4f4f4;
+}
+.content .lcon .toplist .toplistbox dl.br{
+	border-right: 1px solid #e1e1e1;
+}
+.content .lcon .toplist .toplistbox dl dt{
+	width: 208px;
+	height: 100px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.content .lcon .toplist .toplistbox dl dt a.img1{
+	float: left;
+	width: 81px;
+	height: 97px;
+	background: url(../images/biaosheng.gif) no-repeat;
+}
+.content .lcon .toplist .toplistbox dl dt h3 a{
+	float: left;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: bold;
+	margin-left: 12px;
+	color: #343434;
+}
+.content .lcon .toplist .toplistbox dl dt h3 a:hover{
+	text-decoration: underline;
+}
+.content .lcon .toplist .toplistbox dl dt .icon{
+	width: 88px;
+	height: 26px;
+	float: left;
+	margin-left: 10px;
+}
+.content .lcon .toplist .toplistbox dl dt .icon a.a1{
+	float: left;
+	width: 22px;
+	height: 22px;
+	background: url(../images/play.gif) no-repeat;
+	margin-left: 2px;
+}
+.content .lcon .toplist .toplistbox dl dt .icon a.a2{
+	float: left;
+	width: 23px;
+	height: 23px;
+	background: url(../images/shoucang.gif) no-repeat;
+	margin-left: 10px;
+}
+.content .lcon .toplist .toplistbox dl dd{
+	width: 225px;
+	height: 32px;
+	position: relative;
+}
+.content .lcon .toplist .toplistbox dl dd.grey{
+	background-color: #e8e8e8;
+}
+.content .lcon .toplist .toplistbox dl dd p{
+	float: left;
+	height: 32px;
+	padding-left: 28px;
+}
+.content .lcon .toplist .toplistbox dl dd p span{
+	float: left;
+	font-weight: bold;
+	color: #c10d0c;
+	font-size: 16px;
+	line-height: 32px;
+}
+.content .lcon .toplist .toplistbox dl dd p a{
+	width: 50px;
+	height: 32px;
+	font-size: 12px;
+	line-height: 32px;
+	margin-left: 14px;
+	color: black;
+}
+.content .lcon .toplist .toplistbox dl dd p a:hover{
+	text-decoration: underline;
+}
+.content .lcon .toplist .toplistbox dl dd .icon{
+	display: none;
+	float: right;
+	height: 26px;
+	overflow: hidden;
+	width: 82px;
+	padding-top: 6px;
+	padding-left: 18px;
+}
+.content .lcon .toplist .toplistbox dl dd:hover .icon{
+	display: block;
+}
+.content .lcon .toplist .toplistbox dl dd .icon a{
+	float: left;
+	margin-left: 6px;
+}
+.content .lcon .toplist .toplistbox dl dd.grey .icon a.a1{
+	width: 18px;
+	height: 18px;
+	background: url(../images/icon1.gif) no-repeat;
+}
+.content .lcon .toplist .toplistbox dl dd.grey .icon a.a2{
+	margin-left: 7px;
+	margin-top: 2px;
+	width: 15px;
+	height: 14px;
+	background: url(../images/icon2.gif) no-repeat;
+}
+.content .lcon .toplist .toplistbox dl dd.grey .icon a.a3{
+	margin-top: 2px;
+	width: 18px;
+	height: 16px;
+	background: url(../images/icon3.gif) no-repeat;
+}
+.content .lcon .toplist .toplistbox dl dd .icon a.a1{
+	width: 18px;
+	height: 18px;
+	background: url(../images/icon4.gif) no-repeat;
+}
+.content .lcon .toplist .toplistbox dl dd .icon a.a2{
+	margin-left: 7px;
+	margin-top: 2px;
+	width: 15px;
+	height: 14px;
+	background: url(../images/icon5.gif) no-repeat;
+}
+.content .lcon .toplist .toplistbox dl dd .icon a.a3{
+	margin-top: 2px;
+	width: 18px;
+	height: 16px;
+	background: url(../images/icon6.gif) no-repeat;
+}
+.content .lcon .toplist .toplistbox dl dd p.abso{
+	position: absolute;
+	left: -8px;
+	top: 0;
+}
+.content .lcon .toplist .toplistbox dl dd.grey p a.last{
+	margin-left: 110px;
+	width: 55px;
+}
+.content .rcon{
+	float: left;
+	width: 248px;
+	height: 1500px;
+	background-color: white;
+}
+.content .rcon .rcontop{
+	width: 226px;
+	height: 107px;
+	padding-top: 16px;
+	padding-left: 22px;
+	background-image: -webkit-linear-gradient(top,white,#e2e2e2);
+	border-bottom: 1px solid #c3c3c3;
+}
+.content .rcon .rcontop p{
+	width: 200px;
+	line-height: 22px;
+	font-size: 12px;
+	color: #7a7a7a;
+}
+.content .rcon .rcontop a{
+	margin-top: 16px;
+	display: block;
+	width: 101px;
+	height: 30px;
+	padding-left: 50px;
+	text-align:center;
+	color: white;
+	line-height: 30px;
+	background: url(../images/index.png) no-repeat 0 -195px content-box;
+}
+.content .rcon .rcontop a:hover{
+	background-position: -110px -195px;
+}
+.content .rcon .rconcenter{
+	width: 208px;
+	height: 485px;
+	padding: 12px 20px 0px 20px;
+}
+.content .rcon .rconcenter .title{
+	width: 210px;
+	height: 30px;
+	color: black;
+	line-height: 30px;
+	border-bottom: 2px solid #f2f2f2;
+	margin-bottom: 20px;
+}
+.content .rcon .rconcenter .title h5{
+	font-weight: bold;
+	float: left;
+}
+.content .rcon .rconcenter .title a{
+	float: right;
+	color: #818181;
+	line-height: 30px;
+}
+.content .rcon .rconcenter ul{
+	height: 376px;
+}
+.content .rcon .rconcenter ul li{
+	height: 60px;
+	margin-bottom: 14px;
+}
+.content .rcon .rconcenter ul li a{
+	border: 1px solid #f0f0f0;
+	display: block;
+	width: 208px;
+	height: 60px;
+	background-color: #fafafa;
+}
+.content .rcon .rconcenter ul li a:hover{
+	background-color: #f4f4f4;
+}
+.content .rcon .rconcenter ul li a img{
+	float: left;
+}
+.content .rcon .rconcenter ul li a p{
+	float: left;
+	font-size: 12px;
+	color: #959595;
+	margin-left: 14px;
+}
+.content .rcon .rconcenter ul li a span{
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	line-height: 34px;
+}
+.content .rcon .rconcenter a.musicman{
+	display: block;
+	width: 208px;
+	height: 28px;
+	background-color: #f3f3f3;
+	line-height: 28px;
+	border: 1px solid #dadada;
+	text-align:center;
+	color: #4c4c4c;
+	border-radius: 5px;
+}
+.content .rcon .rconcenter a.musicman:hover{
+	background-color: #fefefe;
+}
+.content .rcon .rconbottom{
+	padding: 0 20px;
+}
+.content .rcon .rconbottom h5{
+	height: 30px;
+	line-height: 30px;
+	color: black;
+	font-weight: bold;
+	border-bottom: 2px solid #f2f2f2;
+	margin-bottom: 20px;
+}
+.content .rcon .rconbottom	dl{
+	width: 210px;
+	height: 40px;
+	margin-bottom: 10px;
+}
+.content .rcon .rconbottom	dl dt{
+	float: left;
+}
+.content .rcon .rconbottom	dl dd{
+	float: left;
+	color: #868686;
+	line-height: 20px;
+	margin-left: 10px;
+}
+.content .rcon .rconbottom	dl dd.fw img{
+	position: relative;
+	left: 2px;
+	top: 3px;
+}
+.content .rcon .rconbottom	dl dd.fw{
+	font-weight: bold;
+	color: black;
+}
+.footer{
+	width: 100%;
+	height: 146px;
+	background-color:#f2f2f2;
+	border-top: 1px solid #e1e1e1;
+}
+.footer .inner{
+	width: 980px;
+	margin: 0 auto;
+}
+.footer .inner .left{
+	float: left;
+	margin-top: 20px;
+}
+.footer .inner .left {
+	color: #8e8e8e;
+}
+.footer .inner .left a{
+	color: #8e8e8e;
+	padding: 0 7px;
+}
+.footer .inner .left a:hover{
+	text-decoration: underline;
+}
+.footer .inner p{
+	margin-top: 5px;
+	color: #616161;
+	line-height: 24px;
+} 
+.footer .inner .left p.p2{
+	margin-top: 0px;
+}
+.footer .inner .right{
+	margin-top: 24px;
+	width: 470px;
+	height: 100px;
+	float: right;
+}
+.footer .inner .right dl{
+	margin-left: 45px;
+	width: 48px;
+	height: 100px;
+	float: left;
+}
+.footer .inner .right dt a{
+	display: block;
+	width: 48px;
+	height: 48px;
+	background-image: url(../images/jiang.gif);
+}
+.footer .inner .right dd{
+	float: left;
+	color: #9c9c9c;
+	margin-top: 2px;
+}

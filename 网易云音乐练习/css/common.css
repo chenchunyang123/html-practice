@@ -1,0 +1,97 @@
+body{
+	color: white;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	background-color: #242424;
+}
+.header .inner{
+	margin: 0 auto;
+	width: 1100px;
+	height: 70px;
+	overflow: hidden;
+	position: relative;
+}
+.header .inner h1{
+	float: left;
+	margin-top: 21px;
+	margin-right: 23px;
+}
+.header .inner h1 a{
+	width: 153px;
+	height: 28px;
+	background: url(../images/logo.gif) no-repeat;
+	display: block;
+	text-indent: -999em;
+}
+.header .inner .nav ul li{
+	float: left;
+}
+.header .inner .nav ul li a{
+	display: block;
+	padding: 0 19px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 14px;
+	text-align:center;
+	color: #999;
+}
+.header .inner .nav ul li.cur a{
+	background-color: #000;
+	color: white;
+}
+.header .inner .nav ul li a:hover{
+	background-color: #000;
+	color: white;
+}
+.header .inner span{
+	float: left;
+	width: 26px;
+	height: 14px;
+	background:url(../images/hot.gif);
+	position: relative;
+	top: 20px;
+	left: -8px;
+}
+.header .inner .form1{
+	width: 331px;
+	height: 33px;
+	padding-top: 18px;
+	float: right;
+}
+.header .inner .form1 .text{
+	float: left;
+	height: 32px;
+	width: 159px;
+	background-image: url(../images/text.gif);
+}
+.header .inner .form1 a.tougao{
+	margin-left: 12px;
+	float: left;
+	width: 59px;
+	height: 30px;
+	border: 1px solid #414141;
+	border-radius: 20px;
+	color: #969696;
+	line-height: 30px;
+	padding-left: 30px;
+	background: url(../images/camera.gif) no-repeat 9px 8px;
+}
+.header .inner .form1 a.tougao:hover{
+	border-color: lightgrey;
+	color: lightgrey;
+}
+.header .inner .form1 a.denglu{
+	float: left;
+	width: 68px;
+	height: 32px;
+	line-height: 32px;
+	text-indent: 20px;
+	color: #5e5e5e;
+	background: url(../images/select.gif) no-repeat right 12px;
+}
